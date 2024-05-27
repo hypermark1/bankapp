@@ -1,9 +1,9 @@
 def get_float_input(prompt):
-    # while True:
-    #     try:
+    while True:
+        try:
             return float(input(prompt))
-        # except ValueError:
-        #     print('Invalid input. Please enter a valid number.')
+        except ValueError:
+            print('Invalid input. Please enter a valid number.')
 
 
 def create_account(account):
